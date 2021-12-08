@@ -1,0 +1,92 @@
+.footer {
+    padding: 90px 10px;
+    color: #fff;
+    background-color: #39e27d;
+}
+
+.footer .inner-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1024px;
+    width: 100%;
+    padding-top: 2em;
+}
+
+.footer .inner-container .share-buttons {
+    position: static;
+    flex-flow: row nowrap;
+}
+
+.share-buttons {
+    position: absolute;
+    top: 30px;
+    right: 56px;
+    color: #fff;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 111px;
+}
+
+blockquote, body, dd, dl, dt, fieldset, figure, h1, h2, h3, h4, h5, h6, hr, html, iframe, legend, li, ol, p, pre, textarea, ul {
+    margin: 0;
+    padding: 0;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+.footer .inner-container .share-buttons li a {
+    margin: 0 25px;
+}
+.footer .inner-container .share-buttons li{
+    list-style-type: none;
+}
+
+.share-buttons li a {
+    color: #fff;
+    margin-left: 50px;
+    display: block;
+}
+
+.share-buttons li a img {
+    width: 33px;
+    height: auto;
+}
+.copyright {
+    width: 86px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 16px;
+}
+
+.terms-links {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.terms-links a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Poppins",sans-serif;
+    text-decoration: none;
+}
+
+a:not([class]) {
+    -webkit-text-decoration-skip: ink;
+    text-decoration-skip-ink: auto;
+}
+
+.copyright-two {
+    text-align: center;
+    padding: 22px 14px;
+}

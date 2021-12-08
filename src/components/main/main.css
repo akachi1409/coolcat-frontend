@@ -12,6 +12,8 @@ section.info {
     width: 100%;
     position: relative;
     height: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .default-page .inner-container {
