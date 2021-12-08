@@ -276,3 +276,18 @@
     margin-bottom: 20px;
     font-size: 26px;
 }
+@media screen and (max-width: 870px){
+    .logo {
+        width: 120px;
+    }
+    .mega-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .dashboard-bar{
+        width: auto;
+    }
+    .dashboard-bar .inner-dashboard-bar {
+        justify-content: normal;
+    }
+}
