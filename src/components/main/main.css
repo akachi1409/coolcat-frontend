@@ -1,0 +1,180 @@
+section.info {
+    padding: 55px 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    overflow: visible;
+}
+
+.default-page.default-page--about .inner-container {
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.default-page .inner-container {
+    padding: 40px 0;
+    max-width: 760px;
+    width: 100%;
+}
+.default-page .inner-container {
+    padding: 180px 0;
+    min-height: 400px;
+}
+.inner-container {
+    margin: 0 auto;
+}
+
+section.info.info--graph .graph-container {
+    width: 1080px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+section.info.info--graph .graph-container .graph-text {
+    position: absolute;
+    right: 0;
+    top: 874px;
+    width: 530px;
+}
+
+section.info.info--graph .graph-container .graph {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 290px;
+}
+
+section.info.info--graph .graph-container .graph .graph-section {
+    width: calc(25% - 4px);
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    height: 513px;
+}
+
+section.info.info--graph .graph-container .graph .graph-section .graph-bar.graph-bar-1 {
+    background-color: #dec5a8;
+}
+
+section.info.info--graph .graph-container .graph .graph-section .graph-bar {
+    width: calc(50% - 2px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-flow: column nowrap;
+    position: relative;
+    background-color: #dec5a8;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px 10px 0 0;
+    transition: all 4s;
+}
+
+section.info.info--graph .graph-container .graph .graph-section .graph-bar.graph-bar-2 {
+    background-color: #9cb5fe;
+}
+
+section.info.info--graph .graph-container .graph .graph-section .graph-bar {
+    width: calc(50% - 2px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-flow: column nowrap;
+    position: relative;
+    background-color: #dec5a8;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px 10px 0 0;
+    transition: all 4s;
+}
+
+section.info.info--graph .graph-container .graph .graph-section .graph-bar>span {
+    position: absolute;
+    top: -65px;
+    left: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    font-family: "Poppins",sans-serif;
+}
+
+section.info.info--graph .graph-container .graph .graph-section .graph-bar>span b {
+    font-size: 70px;
+}
+section.info.info--graph .graph-container .graph .graph-section .graph-bar.graph-bar-2 {
+    background-color: #9cb5fe;
+}
+section.info.info--graph .graph-container .graph .graph-section label {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: "Poppins",sans-serif;
+}
+
+label {
+    display: flex;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    align-items: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+section.info.info--graph .graph-container .graph .graph-section .graph-bar.graph-bar-3 {
+    background-color: #39e27d;
+}
+section.info.info--graph .graph-container .graph .graph-section .graph-bar.graph-bar-4 {
+    background-color: #fc9144;
+}
+section.info.info--graph .graph-container .graph .graph-section .graph-bar.graph-bar-5 {
+    background-color: #fd9dcb;
+}
+section.info.info--graph .graph-container .graph .graph-section .graph-bar.graph-bar-6 {
+    background-color: #fa3c6a;
+}
+section.info.info--graph .graph-container .graph .graph-section .graph-bar.graph-bar-7 {
+    background-color: #a070dd;
+}
+section.info.info--graph .graph-container .graph .graph-section .graph-bar.graph-bar-8 {
+    background-color: #fad121;
+}
+
+section.info .text-and-text {
+    padding-top: 40px;
+}
+section.info .text-and-image, section.info .text-and-text {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+section.info .text-and-text .text {
+    width: 40%;
+}
+
+section.info .text {
+    width: 40%;
+    padding: 100px 0;
+}
+section h3 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}

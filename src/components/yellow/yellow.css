@@ -1,0 +1,44 @@
+section.info.info--yellow {
+    background-color: #ffe573;
+}
+
+section.info {
+    padding: 55px 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    overflow: visible;
+}
+
+.default-page.default-page--about .inner-container {
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.default-page .inner-container {
+    padding: 40px 0;
+    max-width: 760px;
+    width: 100%;
+}
+.default-page .inner-container {
+    padding: 180px 0;
+    min-height: 400px;
+}
+.inner-container {
+    margin: 0 auto;
+}
+
+section.info .text {
+    width: 40%;
+    padding: 100px 0;
+}
+
+section.info .under-a-rock {
+    position: absolute;
+    right: 0;
+    bottom: -185px;
+    z-index: 10;
+}
